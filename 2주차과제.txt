@@ -1,0 +1,11 @@
+AWS에 대하여 알아봅시다.
+클라우드환경의 대표적인 서비스인 아마존의 AWS(또는, 마이크로소프트의 에져)에 대한 이해 및 활용이 어느때 보다도 강조되는 시점 입니다.
+개발자 입장에서의 AWS 환경과 사용자 입장에서의 AWS 환경에 대하여 서베이하고 향후 팀 프로젝트에 활용 방안을 정의하도록 하세요.
+주간활동보고서에 추가하면 됩니다.
+참고 사이트 입니다.
+https://aws.amazon.com/ko/getting-started
+
+https://www.inflearn.com/course/aws
+
+https://azure.microsoft.com/ko-kr
+
