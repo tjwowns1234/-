@@ -19,7 +19,8 @@
 <jsp:useBean id="datas" scope="request" class="java.util.ArrayList" />
 
 <body>
-<div align="center"> 
+<div align="center">
+<h2>10조의 주소록 프로그램</h2> 
 <H2>주소록:목록화면</H2>
 <HR>
 <form>
@@ -50,3 +51,5 @@
 </div>
 </body>
 </html>
+
+<!-- 10조 -->
