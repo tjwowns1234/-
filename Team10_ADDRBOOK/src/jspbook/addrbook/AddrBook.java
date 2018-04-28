@@ -1,5 +1,5 @@
 package jspbook.addrbook;
-
+//10조
 public class AddrBook {
 
 	private int ab_id;

@@ -3,6 +3,7 @@ package jspbook.addrbook;
 import java.sql.*;
 import java.util.*;
 
+//10조
 public class AddrBean { 
    
    Connection conn = null;
