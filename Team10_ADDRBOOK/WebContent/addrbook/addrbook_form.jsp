@@ -52,6 +52,10 @@
     <td><input type="text" name="ab_job"></td>
   </tr>
   <tr>
+    <th>텍스트</th>
+    <td><input type="text" name="ab_text"></td>
+  </tr>
+  <tr>
     <td colspan=2 align=center><input type=submit value="저장"><input type=reset value="취소"></td>
 </tr>
 </table>

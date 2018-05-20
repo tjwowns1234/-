@@ -89,15 +89,15 @@ public class AddrBean {
       connect();
       
       String sql ="delete from member where ab_id=?";
-      String sql2="ALTER TABLE member AUTO_INCREMENT=1 SET @COUNT = 0 UPDATE member SET member.ab_id = @COUNT:=@COUNT+1";
+//      String sql2="ALTER TABLE member AUTO_INCREMENT=1 SET @COUNT = 0 UPDATE member SET member.ab_id = @COUNT:=@COUNT+1";
       
       try {
     	  System.out.println("디비 삭제 시작");
-    	 pstmt2 = conn.prepareStatement(sql2);
+//    	 pstmt2 = conn.prepareStatement(sql2);
          pstmt = conn.prepareStatement(sql);
          pstmt.setInt(1,gb_id);
          pstmt.executeUpdate();
-         pstmt2.executeUpdate();
+//         pstmt2.executeUpdate();
          System.out.println("디비 삭제 완료");
       } catch (SQLException e) {
          e.printStackTrace();
